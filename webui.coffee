@@ -16,7 +16,7 @@ app.get '/',
 	(req, res) ->
 		res.send('Hello World!')
 
-port = Number(webconfig.httpPort) || 5000
+port = Number(process.env.PORT) || Number(webconfig.httpPort) || 5000
 app.listen port,
 	() ->
 		console.log("Listening on " + port)
