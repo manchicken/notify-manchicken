@@ -8,6 +8,14 @@
 	<link rel="stylesheet" href="css/default.css" />
 </head>
 <body>
-	
+<form action="/send" method="post">
+	<label for="message_fieldset"><h3>Send a Message!</h3></label>
+	<fieldset title="Message" id="message_fieldset">
+		<label for="message">Message:</label>
+		<input type="text" name="message" id="message" size="20" />
+		<br/>
+		<input type="submit" value="Submit" />
+	</fieldset>
+</form>
 </body>
 </html>
