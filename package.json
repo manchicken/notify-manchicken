@@ -1,0 +1,35 @@
+{
+  "name": "notify-manchicken",
+  "version": "0.0.1",
+  "description": "This is a simple app to notify myself using NodeJS, some manner of MQ, and some manner of SMS integration.",
+  "main": "webui.coffee",
+  "dependencies": {
+    "express": "~3.4.8",
+    "logfmt": "~0.18.1",
+    "coffee-script": "~1.6.3",
+    "yaml": "~0.2.3",
+    "config": "~0.4.35"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/manchicken/notify-manchicken.git"
+  },
+  "keywords": [
+    "notify",
+    "nodejs",
+    "rabbitmq",
+    "amqp",
+    "web"
+  ],
+  "author": "Michael D. Stemle, Jr.",
+  "license": "GPLv3",
+  "readmeFilename": "README.md",
+  "engines": {
+    "node": "0.10.x"
+  },
+  "gitHead": "8bbe0bdadffbda4291899d1d46ae76a34b3a5da7"
+}
