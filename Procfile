@@ -1,1 +1,1 @@
-webui: coffee webui.coffee
+web: coffee webui.coffee
